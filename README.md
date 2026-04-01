@@ -18,7 +18,7 @@ Ensure you have Python 3.7 or newer installed on your system.
    cd Local-PDF-Merger
 
 2. Install the required dependencies:
-
+    ```bash
     pip install -r requirements.txt
 
 ## Usage
@@ -26,11 +26,11 @@ You can place this script in the same directory as your PDF files, or run it fro
 
 1. Basic Usage (Current Directory)
     Merges all PDFs in the current folder into a default merged_output.pdf file.
-
+    ```bash
     python pdf_merger.py
 
 2. Advanced Usage (Specific Directory and Output Name)
     Specify the target folder containing your PDFs and your desired output filename.
-
+    ```bash
     python pdf_merger.py -d "C:\Path\To\Your\PDF\Folder" -o "Monthly_Report.pdf"
 
