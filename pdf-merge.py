@@ -80,7 +80,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "-o", "--output", 
         type=str, 
-        default="merged_output.pdf", 
+        default="merged_output.pdf", #Change 
         help="Name of the output file (default: merged_output.pdf)"
     )
 
